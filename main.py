@@ -2,11 +2,9 @@ import random
 
 
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    numbers = []
+    while len(numbers) < 5:
+
 
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
