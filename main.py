@@ -4,7 +4,10 @@ import random
 def main():
     numbers = []
     while len(numbers) < 5:
+        randomNum = random.randint(0,100)
+        numbers.append(randomNum)
 
+    
 
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
