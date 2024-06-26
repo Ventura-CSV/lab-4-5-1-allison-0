@@ -6,7 +6,9 @@ def main():
     while len(numbers) < 5:
         randomNum = random.randint(0,100)
         numbers.append(randomNum)
-
+    total = 0
+    for number in numbers:
+        total += number
     
 
     print(f'The random values are {numbers}')
